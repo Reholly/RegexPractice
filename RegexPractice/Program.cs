@@ -36,5 +36,3 @@ string dateReplacement = "${day}-${month}-${year}";
 
 Console.WriteLine(Regex.Replace(inputDate, datePattern, dateReplacement));
 
-
-
